@@ -1,6 +1,6 @@
 # Csernobili Atomkatasztrófa
 ---
-## A projekthez használt modulok/framework-ok
+## A projekthez használt modulok/framework-ök
 - ReactJS
 - NodeJS
 - ExpressJS
