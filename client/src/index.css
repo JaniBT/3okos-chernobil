@@ -17,3 +17,7 @@
     margin: 0;
     padding: 0;
 }
+
+body {
+    cursor: url('./assets/cursor/Horror.cur'), auto;
+}

@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react"
+import { useState, useEffect } from "react"
 import './Home.css'
 
 const Home = () => {
@@ -14,7 +14,24 @@ const Home = () => {
             <div className={`loading-animation ${isVisible ? 'visible' : 'nonVisible'}`} onAnimationEnd={onAnimationEnd}>
                 <h1>CHERNOBYL</h1>
             </div>
-            <h1>Placeholder</h1>
+            <main className="fullview-contents">
+                <div className="fullview-content main">
+                    <header className="navigation-bar">
+                        <nav>
+                            
+                        </nav>
+                    </header>
+                    <div className="content">
+
+                    </div>
+                </div>
+                <div className="fullview-content">
+
+                </div>
+                <div className="fullview-content">
+                    
+                </div>
+            </main>
         </>
     )
 }
