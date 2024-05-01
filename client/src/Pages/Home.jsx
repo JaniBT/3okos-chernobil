@@ -5,15 +5,14 @@ const Home = () => {
     const [isVisible, setIsVisible] = useState(true)
     
 
-    const onAnimationEnd = () => {
-        setIsVisible(false)
+    const videoStop = () => {
+        setTimeout(() => {
+            setIsVisible(false)
+        }, 5000)
     }
 
     return (
         <>
-            <div className={`loading-animation ${isVisible ? 'visible' : 'nonVisible'}`} onAnimationEnd={onAnimationEnd}>
-                <h1>CHERNOBYL</h1>
-            </div>
             <main className="fullview-contents">
                 <div className="fullview-content main">
                     <header className="navigation-bar">
