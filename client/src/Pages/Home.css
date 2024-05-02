@@ -1,0 +1,78 @@
+.mainpage-container {
+    width: 100%;
+    height: 100dvh;
+    background: url('../assets/images/ChernobylTodayBackground.png') center/cover no-repeat;
+
+    display: grid;
+    grid-template-rows: 1fr 2fr 1fr;
+    gap: 6rem;
+}
+
+.navigation-bar {
+    padding-inline: 2rem;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation-bar nav {
+    display: flex;
+    gap: 3rem;
+}
+
+.navigation-bar nav a {
+    color: var(--clr-white);
+    text-decoration: none;
+    font-family: var(--ff-poppins);
+    font-size: 1.25rem;
+
+    position: relative;
+}
+
+.navigation-bar nav a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 100%;
+    height: 2px;
+    user-select: none;
+    background-color: var(--clr-white);
+    opacity: 0;
+
+    transition: opacity .2s ease;
+}
+
+.navigation-bar nav a:hover::after {
+    opacity: 1;
+}
+
+.navigation-bar h1 {
+    font-family: var(--ff-chernobyl);
+    color: var(--clr-white);
+    font-size: 4rem;
+    font-weight: normal;
+    letter-spacing: 4px;
+}
+
+.navigation-bar span img {
+    cursor: pointer;
+    user-select: none;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+}
+
+.content .content-title {
+    width: 50%;
+    margin-left: 2rem;
+}
+
+.content .content-title h1 {
+    color: var(--clr-white);
+    font-size: 4.5rem;
+}
