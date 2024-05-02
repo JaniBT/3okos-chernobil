@@ -1,11 +1,24 @@
 .mainpage-container {
     width: 100%;
     height: 100dvh;
-    background: url('../assets/images/ChernobylTodayBackground.png') center/cover no-repeat;
 
     display: grid;
     grid-template-rows: 1fr 2fr 1fr;
     gap: 6rem;
+
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    transition: all .5s ease;
+}
+
+.mainpage-container.today {
+    background-image: url('../assets/images/ChernobylTodayBackground.png');
+}
+
+.mainpage-container.then {
+    background-image: url('../assets/images/ChernobylThenBackground.png');
 }
 
 .navigation-bar {
@@ -22,6 +35,24 @@
     gap: 3rem;
 }
 
+.navigation-bar nav button {
+    border: none;
+    background: none;
+    color: var(--clr-white);
+    font-size: 1.25rem;
+    cursor: pointer;
+
+    position: relative;
+}
+
+.navigation-bar nav a svg {
+    transition: transform .3s ease;
+}
+
+.navigation-bar nav a:hover svg {
+    transform: rotateZ(180deg);
+}
+
 .navigation-bar nav a {
     color: var(--clr-white);
     text-decoration: none;
@@ -36,17 +67,18 @@
     position: absolute;
     left: 0;
     bottom: -2px;
-    width: 100%;
+    width: 0%;
     height: 2px;
     user-select: none;
     background-color: var(--clr-white);
     opacity: 0;
 
-    transition: opacity .2s ease;
+    transition: all .3s ease;
 }
 
 .navigation-bar nav a:hover::after {
     opacity: 1;
+    width: 100%;
 }
 
 .navigation-bar h1 {
@@ -55,6 +87,11 @@
     font-size: 4rem;
     font-weight: normal;
     letter-spacing: 4px;
+}
+
+.navigation-bar span {
+    width: 150px;
+    text-align: end;
 }
 
 .navigation-bar span img {
@@ -80,4 +117,38 @@
     line-height: 1.1;
     letter-spacing: 2px;
     text-align: start;
+}
+
+.date-span {
+    color: var(--clr-white);
+    font-family: var(--ff-chernobyl);
+    font-weight: normal;
+    font-size: 4rem;
+    margin-left: auto;
+    margin-right: 2rem;
+
+    user-select: none;
+    -moz-user-select: none;
+}
+
+.date-span {
+    margin-top: auto;
+}
+
+
+
+/* Media-queries */
+
+@media screen and (max-width: 1440px) {
+    .navigation-bar h1 {
+        font-size: 3.25rem;
+    }
+
+    .content .content-title h1 {
+        font-size: 2.75rem;
+    }
+
+    .date-span {
+        font-size: 2.75rem;
+    }
 }

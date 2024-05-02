@@ -1,9 +1,9 @@
 {
   "heading": "CSERNOBIL",
-  "welcome": "Welcome to our website!",
   "nav_one": "Főoldal",
   "nav_second": "Erről az oldalról",
   "nav_third": "Továbbiak",
-  "paragraph": "Tárja fel a világ legrosszabb nukleáris katasztrófájának elmondhatatlan történeteit...",
-  "time": "NAPJAINKBAN"
+  "paragraph": "Tárja fel a világ legdurvább nukleáris katasztrófájának elmondatlan történeteit...",
+  "time": "NAPJAINKBAN",
+  "timeThen": "AKKOR"
 }

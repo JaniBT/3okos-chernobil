@@ -1,21 +1,32 @@
 import { useState, useEffect } from "react"
 import './Home.css'
 import Navbar from "../components/Navbar"
-import hun_flag from '../assets/icons/hungarianIcon.png'
-import en_flag from '../assets/icons/englishIcon.png'
+import { useTranslation } from "react-i18next"
 
 const Home = () => {
+    const [background, setBackground] = useState(true)
+    const { t } = useTranslation()
     
+    useEffect(() => {
+        const intervalId = setInterval(() => {
+            setBackground(prevBackground => !prevBackground)
+        }, 8000)
+
+        return () => {
+            clearInterval(intervalId)
+        }
+    })
 
     return (
         <>
-            <div className="mainpage-container">
-                <Navbar flagImg={en_flag} />
+            <div className={`mainpage-container ${background ? 'today' : 'then'}`}>
+                <Navbar />
                 <div className="content">
                     <div className="content-title">
-                        <h1>Uncover the untold stories of the world's worst nuclear disaster...</h1>
+                        <h1>{t('paragraph')}</h1>
                     </div>
                 </div>
+                <span className="date-span">{background ? `${t('time')}` : `${t('timeThen')}`}</span>
             </div>
         </>
     )
