@@ -5,5 +5,8 @@
   "nav_third": "More",
   "paragraph": "Uncover the untold stories of the world's worst nuclear disaster...",
   "time": "TODAY",
-  "timeThen": "THEN"
+  "timeThen": "THEN",
+  "moreMenuDesc": "Go to menus section",
+  "languageSelectDesc": "Click to change language",
+  "buttonText": "English"
 }

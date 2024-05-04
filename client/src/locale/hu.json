@@ -5,5 +5,8 @@
   "nav_third": "Továbbiak",
   "paragraph": "Tárja fel a világ legdurvább nukleáris katasztrófájának elmondatlan történeteit...",
   "time": "NAPJAINKBAN",
-  "timeThen": "AKKOR"
+  "timeThen": "AKKOR",
+  "moreMenuDesc": "Tovább a menük szekcióra",
+  "languageSelectDesc": "Kattints a nyelv változtatáshoz",
+  "buttonText": "Hungarian"
 }
