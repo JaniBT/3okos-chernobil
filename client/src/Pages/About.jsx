@@ -20,9 +20,16 @@ const About = () => {
         <h2>{t("This page was made in memorial of the people who suffered through these times.")}</h2>
         <HiArrowNarrowDown />
         <h3>{t("view gallery")}</h3>
-        <div className="cards">
-          <div className="card">
-            <img src="" alt="" />
+        <div className="temporary-div">
+        </div>
+        <h4>{t("learn more")}</h4>
+        <div className="learn-more-texts">
+          <div className="left-text">
+            <p>{t("Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus similique quisquam architecto. Harum, ad consequatur aut obcaecati, culpa fugiat eius quidem amet, quam cumque magni.")}</p>
+            <p>{t("Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi nobis, dolore adipisci officiis ducimus nihil. Harum ut, nulla iusto rem aliquid voluptatibus tenetur modi natus excepturi beatae quam obcaecati ab ex? Alias dolore atque inventore voluptas officiis doloremque dolores dolorum, laudantium sequi, itaque voluptatibus? Sunt beatae et sed quia deserunt?")}</p>
+          </div>
+          <div className="right-text">
+            <p>{t("Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi nobis, dolore adipisci officiis ducimus nihil. Harum ut, nulla iusto rem aliquid voluptatibus tenetur modi natus excepturi beatae quam obcaecati ab ex? Alias dolore atque inventore voluptas officiis doloremque dolores dolorum, laudantium sequi, itaque voluptatibus? Sunt beatae et sed quia deserunt?")}</p>
           </div>
         </div>
       </div>
