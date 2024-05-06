@@ -8,5 +8,30 @@
   "timeThen": "THEN",
   "moreMenuDesc": "Go to menus section",
   "languageSelectDesc": "Click to change language",
-  "buttonText": "English"
+  "buttonText": "English",
+  "aboutUs": "About us",
+  "iFrameLabel": "In memorial of the chernobyl catastrophe.",
+  "inMemorial": "This page was made in memorial of the people who suffered through these times",
+  "gallery": "VIEW GALLERY",
+  "moreInfo": "LEARN MORE",
+  "teamInfo": "We are the 3okos team",
+  "janosCsordas": [
+    "Project manager",
+    "Main designer",
+    "Director",
+    "Man of Ideas"
+  ],
+  "balazsKoos": [
+    "Main Translator",
+    "Designer",
+    "Director"
+  ],
+  "andrasVasari": [
+    "Media Supplier",
+    "Designer",
+    "Subordinate"
+  ],
+  "contactInfo": "You can contact us at any of our available social media accounts.",
+  "madeBy": "Chernobyl Project made by 3 okos",
+  "legals": "All rights reserved."
 }

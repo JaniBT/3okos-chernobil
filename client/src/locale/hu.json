@@ -8,5 +8,30 @@
   "timeThen": "AKKOR",
   "moreMenuDesc": "Tovább a menük szekcióra",
   "languageSelectDesc": "Kattints a nyelv változtatáshoz",
-  "buttonText": "Hungarian"
+  "buttonText": "Hungarian",
+  "aboutUs": "Rólunk",
+  "iFrameLabel": "A Csernobili katasztrófa emlékére.",
+  "inMemorial": "Ez az oldal azoknak az embereknek az emlékére készült, akik átszenvedték ezeket az időket.",
+  "gallery": "GALÉRIA",
+  "moreInfo": "TUDJ MEG TÖBBET",
+  "teamInfo": "Mi vagyunk a 3okos csapat",
+  "janosCsordas": [
+    "Projektvezető",
+    "Vezető-tervező",
+    "Rendező",
+    "Az ötletek ember"
+  ],
+  "balazsKoos": [
+    "Vezető-fordító",
+    "Tervező",
+    "Rendező"
+  ],
+  "andrasVasari": [
+    "Médiaszolgáltató",
+    "Tervező",
+    "Alrendező"
+  ],
+  "contactInfo": "Lépjen kapcsolatba velünk az elérhető  közösségi felületeinken.",
+  "madeBy": "A Csernobil projektet készítette a 3okos",
+  "legals": "Minden jog fenntartva."
 }
