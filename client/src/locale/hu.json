@@ -33,5 +33,16 @@
   ],
   "contactInfo": "Lépjen kapcsolatba velünk az elérhető  közösségi felületeinken.",
   "madeBy": "A Csernobil projektet készítette a 3okos",
-  "legals": "Minden jog fenntartva."
+  "legals": "Minden jog fenntartva.",
+  "signIn": "Bejelentkezés",
+  "signUp": "Regisztáció",
+  "menusHeading": "Menük",
+  "menusChoose": "Válasszon egy menüt a folytatáshoz",
+  "menuGallery": "Galéria",
+  "menuStories": "Történetek",
+  "menuTravel": "Utazás",
+  "menuThoughts": "Gondolatok",
+  "menuPlaces": "Látnivalók",
+  "menuHBO": "HBO Series",
+  "menuNote": "*Ne feledje, hogy egyes menü csak bejelentkezés után lesz megtekinthető!"
 }

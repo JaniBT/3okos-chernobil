@@ -33,5 +33,16 @@
   ],
   "contactInfo": "You can contact us at any of our available social media accounts.",
   "madeBy": "Chernobyl Project made by 3 okos",
-  "legals": "All rights reserved."
+  "legals": "All rights reserved.",
+  "signIn": "Sign in",
+  "signUp": "Sign up",
+  "menusHeading": "Menus",
+  "menusChoose": "Choose a menu to continue",
+  "menuGallery": "Gallery",
+  "menuStories": "Stories",
+  "menuTravel": "Travel",
+  "menuThoughts": "Thoughts",
+  "menuPlaces": "Places",
+  "menuHBO": "HBO Series",
+  "menuNote": "*Note that for some of the menus you will have to be logged in to view it!"
 }
