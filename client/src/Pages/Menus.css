@@ -1,18 +1,17 @@
 .menus-body {
   background: #111111;
   height: 100vh;
+  overflow-x: hidden;
 }
 
 .menus-container {
   width: 65%;
   margin-inline: auto;
   transition: all 0.5s ease;
-  /* border: 1px solid red; */
-  /* overflow: hidden; only in wide screen */
 }
 
 .menus-home-link {
-  margin-left: 5rem;
+  text-align: center;
   padding-block: 1rem;
   font-size: 20px;
 }
@@ -33,9 +32,9 @@
   width: 0%;
   height: 2px;
   user-select: none;
-  background-color: var(--clr-black);
+  background-color: var(--clr-white);
   opacity: 0;
-  transition: all 0.3s ease;
+  transition: all .3s ease;
 }
 
 .menus-home-link nav a:hover::after {
@@ -45,41 +44,40 @@
 
 .menus-container h1 {
   text-align: center;
+  margin-top: 2rem;
+  font-size: 40px;
   color: var(--clr-skin);
   font-family: var(--ff-merriweather);
-  font-size: 40px;
 }
 
 .menusChoose {
-  color: var(--clr-white);
-  margin-block: 1rem;
   text-align: center;
-  font-family: var(--ff-poppins);
+  margin-block: 1rem;
+  margin-bottom: 3rem;
   font-size: 20px;
+  color: var(--clr-white);
+  font-family: var(--ff-poppins);
 }
 
-.menuSection{
-  position: relative;
-  display: grid;
-  padding: 1rem;
-  grid-template-columns: auto 5rem auto;
-  grid-template-columns: repeat(auto-fill);
-  row-gap : 35px;
-  column-gap: 57px;
-  justify-items: center;
+.menuSection {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   align-items: center;
-  grid-auto-flow: row;
+  flex-flow: 3;
+  row-gap: 1rem;
+  column-gap: 6px;
   user-select: none;
 }
 
 .menuCards {
   filter: drop-shadow(0 0 0.5rem var(--clr-grey));
+  text-decoration: none;
 }
 
 .menuCard {
   width: 290px;
   height: 250px;
-  margin: 3rem;
   padding: 1rem;
   border-radius: 12px;
   margin: 1rem;
@@ -95,11 +93,10 @@
   color: var(--clr-white);
 }
 
-.cardLink a {
+.cardLink span {
   display: block;
   font-weight: 400;
   color: #fff;
-  text-decoration: none;
   font-family: var(--ff-poppins);
   font-size: 24px;
 }

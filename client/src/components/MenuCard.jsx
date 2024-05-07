@@ -6,13 +6,13 @@ const Menu = (props) => {
   const { t } = useTranslation();
 
   return (
-      <div className="menuCards">
+      <Link to={props.link} className="menuCards">
         <div className="menuCard">
           <h2 className="cardLink">
-            <Link to={props.link}>{props.title}</Link>
+            <span>{props.title}</span>
           </h2>
         </div>
-      </div>
+      </Link>
   );
 };
 
