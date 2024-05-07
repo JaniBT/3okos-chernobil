@@ -2,7 +2,7 @@ import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom"; 
 import "./About.css";
 import { HiArrowNarrowDown } from "react-icons/hi";
-import { AndrisKep, BalazsKep, BurningReactor, ControlRoom, HeliCrash, Helicopter, JaniKep, Liquidators, OldSarchophage } from "../assets/images/images"
+import { AndrisKep, BalazsKep, BurningReactor, ControlRoom, HeliCrash, Helicopter, JaniKep, Liquidators, OldSarcophage } from "../assets/images/images"
 
 const About = () => {
   const { t } = useTranslation();
