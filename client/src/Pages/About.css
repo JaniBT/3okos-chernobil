@@ -1,4 +1,4 @@
-* {
+.about-body {
     background: var(--clr-black);
 }
 
@@ -9,7 +9,7 @@
 
 .about-home-link {
     text-align: center;
-    margin: 1rem;
+    padding: 1rem;
     font-size: 20px;
 }
 
