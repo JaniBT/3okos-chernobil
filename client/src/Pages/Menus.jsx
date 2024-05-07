@@ -13,7 +13,7 @@ const Menus = () => {
         <div className="menus-container">
           <header className="menus-home-link">
             <nav>
-              <Link to="/">{t("nav_one")}</Link>
+              <Link to="/" className="menus-link">{t("nav_one")}</Link>
             </nav>
           </header>
           <h1>{t("menusHeading")}</h1>
@@ -44,7 +44,7 @@ const Menus = () => {
               innerLink="/places"
               title={t("menuPlaces")}
             />
-            <MenuCard link="/hbo" innerLink="/hbo" title={t("menuHBO")} />
+            <MenuCard link="https://www.hbo.com/chernobyl" innerLink="/hbo" title={t("menuHBO")} />
           </section>
           <p className="menuNote">{t("menuNote")}</p>
         </div>
