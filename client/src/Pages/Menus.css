@@ -1,20 +1,24 @@
+.menus-body {
+  background: #111111;
+  height: 100vh;
+}
+
 .menus-container {
-  width: 80%;
-  height: 100dvh;
+  width: 65%;
   margin-inline: auto;
   transition: all 0.5s ease;
-  /* border: 1px solid red; only for developing */
+  /* border: 1px solid red; */
   /* overflow: hidden; only in wide screen */
 }
 
 .menus-home-link {
   margin-left: 5rem;
-  margin-block: 2rem;
+  padding-block: 1rem;
   font-size: 20px;
 }
 
 .menus-home-link nav a {
-  color: var(--clr-black);
+  color: var(--clr-white);
   text-decoration: none;
   font-family: var(--ff-poppins);
   font-size: 1.25rem;
@@ -47,6 +51,7 @@
 }
 
 .menusChoose {
+  color: var(--clr-white);
   margin-block: 1rem;
   text-align: center;
   font-family: var(--ff-poppins);
@@ -54,14 +59,20 @@
 }
 
 .menuSection{
-    user-select: none;
+  position: relative;
+  display: grid;
+  padding: 1rem;
+  grid-template-columns: auto 5rem auto;
+  grid-template-columns: repeat(auto-fill);
+  row-gap : 35px;
+  column-gap: 57px;
+  justify-items: center;
+  align-items: center;
+  grid-auto-flow: row;
+  user-select: none;
 }
 
 .menuCards {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
   filter: drop-shadow(0 0 0.5rem var(--clr-grey));
 }
 
@@ -81,6 +92,7 @@
   justify-content: center;
   align-items: center;
   height: 100%;
+  color: var(--clr-white);
 }
 
 .cardLink a {
@@ -93,7 +105,9 @@
 }
 
 .menuNote {
-    margin: 1rem;
-  font-family: var(--ff-poppins);
+  text-align: center;
+  padding: 1rem;
   font-size: 16;
+  font-family: var(--ff-poppins);
+  color: var(--clr-white);
 }
