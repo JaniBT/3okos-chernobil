@@ -2,7 +2,8 @@ import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom"; 
 import "./About.css";
 import { HiArrowNarrowDown } from "react-icons/hi";
-import { AndrisKep, BalazsKep, BurningReactor, ControlRoom, HeliCrash, Helicopter, JaniKep, Liquidators, OldSarchophage } from "../assets/images/images"
+import { AndrisKep, BalazsKep, BurningReactor, ControlRoom, HeliCrash, Helicopter, JaniKep, Liquidators, OldSarcophage } from "../assets/images/images";
+import AboutImages from "../components/AboutImages";
 
 const About = () => {
   const { t } = useTranslation();
@@ -22,9 +23,15 @@ const About = () => {
           <h2>{t("This page was made in memorial of the people who suffered through these times.")}</h2>
           <HiArrowNarrowDown />
           <h3>{t("view gallery")}</h3>
-          <div className="temporary-div">
+          <div className="about-images">
+            <AboutImages source={ControlRoom} />
+            <AboutImages source={BurningReactor} />
+            <AboutImages source={Helicopter} />
+            <AboutImages source={HeliCrash} />
+            <AboutImages source={Liquidators} />
+            <AboutImages source={OldSarcophage} />
           </div>
-          <h4>{t("learn more")}</h4>
+          <Link className="learn-more-link" to="">learn more</Link>
           <div className="learn-more-texts">
             <div className="left-text">
               <p>{t("Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus similique quisquam architecto. Harum, ad consequatur aut obcaecati, culpa fugiat eius quidem amet, quam cumque magni.")}</p>
