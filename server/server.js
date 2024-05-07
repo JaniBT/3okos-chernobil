@@ -6,7 +6,7 @@ const PORT = process.env.PORT
 
 const app = express()
 
-app.use('/api/users')
+app.use('/api/thoughts')
 
 app.listen(PORT, () => {
   console.log(`Server is listening on http://localhost:${PORT}`)
