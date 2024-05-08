@@ -22,16 +22,8 @@
     "Rendező",
     "Az ötletek ember"
   ],
-  "balazsKoos": [
-    "Vezető-fordító",
-    "Tervező",
-    "Rendező"
-  ],
-  "andrasVasari": [
-    "Médiaszolgáltató",
-    "Tervező",
-    "Alrendező"
-  ],
+  "balazsKoos": ["Vezető-fordító", "Tervező", "Rendező"],
+  "andrasVasari": ["Médiaszolgáltató", "Tervező", "Alrendező"],
   "contactInfo": "Lépjen kapcsolatba velünk az elérhető  közösségi felületeinken.",
   "madeBy": "A Csernobil projektet készítette a 3okos",
   "legals": "Minden jog fenntartva.",
@@ -45,5 +37,8 @@
   "menuThoughts": "Gondolatok",
   "menuPlaces": "Látnivalók",
   "menuHBO": "HBO Sorozat",
-  "menuNote": "*Ne feledje, hogy egyes menük csak bejelentkezés után lesznek megtekinthetők!"
+  "menuNote": "*Ne feledje, hogy egyes menük csak bejelentkezés után lesznek megtekinthetők!",
+
+  "footerMain": "A Csernobil projektet készítette a 3okos",
+  "footerRights": "Copyright. Minden jog fenntartva."
 }

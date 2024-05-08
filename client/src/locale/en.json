@@ -22,16 +22,8 @@
     "Director",
     "Man of Ideas"
   ],
-  "balazsKoos": [
-    "Main Translator",
-    "Designer",
-    "Director"
-  ],
-  "andrasVasari": [
-    "Media Supplier",
-    "Designer",
-    "Subordinate"
-  ],
+  "balazsKoos": ["Main Translator", "Designer", "Director"],
+  "andrasVasari": ["Media Supplier", "Designer", "Subordinate"],
   "contactInfo": "You can contact us at any of our available social media accounts.",
   "madeBy": "Chernobyl Project made by 3 okos",
   "legals": "All rights reserved.",
@@ -45,5 +37,8 @@
   "menuThoughts": "Thoughts",
   "menuPlaces": "Places",
   "menuHBO": "HBO Series",
-  "menuNote": "*Note that for some of the menus you will have to be logged in to view it!"
+  "menuNote": "*Note that for some of the menus you will have to be logged in to view it!",
+
+  "footerMain": "Chernobyl Project made by 3okos",
+  "footerRights": "Copyright. All rights reserved."
 }
