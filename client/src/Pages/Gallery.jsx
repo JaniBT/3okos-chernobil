@@ -1,5 +1,4 @@
 import { HiArrowNarrowDown } from "react-icons/hi"
-
 import { useTranslation } from "react-i18next"
 import { Link } from "react-router-dom"
 import './Gallery.css'

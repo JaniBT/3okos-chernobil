@@ -67,6 +67,9 @@
 
 .hero-height {
     height: 20rem;
+}
+
+.hero-height:first-child {
     display: grid;
     place-items: center;
 }
