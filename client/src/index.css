@@ -30,6 +30,8 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
+  -ms-scroll-behavior: smooth;
 }
 
 * {
@@ -46,4 +48,28 @@
   background-color: var(--clr-white);
   border-radius: 10px;
   border: 3px solid #ffffff;
+}
+
+.footer {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #323232;
+  text-align: center;
+  padding: 1rem;
+  user-select: none;
+}
+
+.footer p:nth-child(1) {
+  color: var(--clr-skin);
+  font-size: 24px;
+  font-family: var(--ff-merriweather);
+}
+
+.footer p:nth-child(2) {
+  color: #fff;
+  font-size: 16px;
+  font-family: var(--ff-poppins);
+  padding-top: 2rem;
 }

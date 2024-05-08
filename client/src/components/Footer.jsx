@@ -1,15 +1,18 @@
-import React from "react";
-import { useTranslation } from "react-i18next";
+import React from "react"
+import { useState } from "react"
+import { useTranslation } from "react-i18next"
 
-const Footer = (props) =>{
-    const { t } = useTranslation();
+const Footer = () => {
+  const { t } = useTranslation()
+  
+  const getFullYear = new Date().getFullYear()
 
-    return(
+  return (
     <footer className="footer">
-        <p>{t("footerMain")}</p>
-        <p>  &copy; {t("footerRights")}</p>
+      <p>{t("footerMain")}</p>
+      <p> <span>{getFullYear}</span> &copy; {t("footerRights")}</p>
     </footer>
-    )
+  )
 }
 
 export default Footer
