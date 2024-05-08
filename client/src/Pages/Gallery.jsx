@@ -23,7 +23,7 @@ const Gallery = () => {
             <main className="gallery-main-content">
                 <GalleryHeroSection />
                 <HiArrowNarrowDown className="arrow_down_gallery" />
-                <Link to="#gallery" className="gallery-view-btn" onClick={handleClick}>VIEW GALLERY</Link>
+                <Link className="gallery-view-btn" onClick={handleClick}>VIEW GALLERY</Link>
                 <div className="image-gallery">
                     <div className="all-images">
                         <div className="gal-image"></div>

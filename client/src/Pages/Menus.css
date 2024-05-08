@@ -83,10 +83,11 @@
   padding: 1rem;
   border-radius: 12px;
   background: var(--clr-black);
+
+  transition: all 0.25s ease-in;
 }
 
 .menuCard:hover {
-  transition: all 0.25s ease-in;
   scale: 1.05;
   border: none;
   filter: drop-shadow(0 0 0.5rem var(--clr-grey));
