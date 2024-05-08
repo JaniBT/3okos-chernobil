@@ -25,22 +25,22 @@ const Menus = () => {
               title={t("menuGallery")}
             />
             <MenuCard
-              link="/stories"
+              link="/menus/stories"
               innerLink="/stories"
               title={t("menuStories")}
             />
             <MenuCard
-              link="/travel"
+              link="/menus/travel"
               innerLink="/travel"
               title={t("menuTravel")}
             />
             <MenuCard
-              link="/thoughts"
+              link="/menus/thoughts"
               innerLink="/thoughts"
               title={t("menuThoughts")}
             />
             <MenuCard
-              link="/places"
+              link="/menus/places"
               innerLink="/places"
               title={t("menuPlaces")}
             />
