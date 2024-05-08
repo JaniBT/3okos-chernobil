@@ -1,5 +1,5 @@
 import { useTranslation } from "react-i18next"
-import { BurningReactor } from "../assets/images/images"
+import { HeliCrash, SMBurningReactor } from "../assets/images/images"
 
 const GalleryHeroSection = () => {
     const { t } = useTranslation()
@@ -12,8 +12,9 @@ const GalleryHeroSection = () => {
                 </div>
                 <div className="hero-sm-picture hero-height">
                 </div>
-                <div className="hero-horizontal hero-height">Szia</div>
-                <div className="hero-vertical hero-height">Szia</div>
+                <div className="hero-horizontal hero-height">
+                </div>
+                <div className="hero-vertical hero-height"></div>
             </div>
         </>
     )
