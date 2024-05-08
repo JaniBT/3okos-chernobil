@@ -33,8 +33,8 @@ const About = () => {
             <AboutImages source={Liquidators} />
             <AboutImages source={OldSarcophage} />
           </div>
-          <Link className="learn-more-link" to="">learn more</Link>
-          <div className="learn-more-texts">
+          <Link className="learn-more-link" to="https://en.wikipedia.org/wiki/Chernobyl_disaster">learn more</Link>
+          <div className="curiosity-texts">
             <div className="left-text">
               <p>{t("Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus similique quisquam architecto. Harum, ad consequatur aut obcaecati, culpa fugiat eius quidem amet, quam cumque magni.")}</p>
               <p>{t("Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi nobis, dolore adipisci officiis ducimus nihil. Harum ut, nulla iusto rem aliquid voluptatibus tenetur modi natus excepturi beatae quam obcaecati ab ex? Alias dolore atque inventore voluptas officiis doloremque dolores dolorum, laudantium sequi, itaque voluptatibus? Sunt beatae et sed quia deserunt?")}</p>
