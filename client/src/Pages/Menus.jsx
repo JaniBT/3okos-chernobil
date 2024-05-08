@@ -20,7 +20,7 @@ const Menus = () => {
           <p className="menusChoose">{t("menusChoose")}</p>
           <section className="menuSection">
             <MenuCard
-              link="/gallery"
+              link="/menus/gallery"
               innerLink="/gallery"
               title={t("menuGallery")}
             />

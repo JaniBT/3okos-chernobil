@@ -1,0 +1,21 @@
+:root {
+    --global-width: 70%;
+}
+
+.inside-menus-wrapper {
+    width: 100%;
+    background: var(--clr-black);
+}
+
+.inside-menus-wrapper nav {
+    margin-inline: auto;
+    display: flex;
+    justify-content: space-around;
+    width: var(--global-width);
+    padding: 2rem;
+}
+
+.inside-menus-wrapper nav a {
+    color: var(--clr-white);
+
+}
