@@ -46,7 +46,6 @@ const Menus = () => {
             />
             <MenuCard link="https://www.hbo.com/chernobyl" innerLink="/hbo" title={t("menuHBO")} />
           </section>
-          <p className="menuNote">{t("menuNote")}</p>
         </div>
       </div>
     </>

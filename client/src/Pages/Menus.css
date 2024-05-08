@@ -1,25 +1,3 @@
-/* ===== Scrollbar CSS ===== */
-/* Firefox */
-* {
-  scrollbar-width: thin;
-  scrollbar-color: var(--clr-white) #111111;
-}
-
-/* Chrome, Edge, and Safari */
-*::-webkit-scrollbar {
-  width: 16px;
-}
-
-*::-webkit-scrollbar-track {
-  background: #111111;
-}
-
-*::-webkit-scrollbar-thumb {
-  background-color:  var(--clr-white);
-  border-radius: 10px;
-  border: 3px solid #ffffff;
-}
-
 .menus-body {
   background: #111111;
   height: 100vh;
@@ -86,7 +64,6 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  flex-flow: 3;
   row-gap: 57px;
   column-gap: 35px;
   user-select: none;
@@ -94,7 +71,6 @@
 }
 
 .menuCards {
-  /* filter: drop-shadow(0 0 0.5rem var(--clr-grey)); */
   text-decoration: none;
 }
 
@@ -103,13 +79,11 @@
   height: 250px;
   padding: 1rem;
   border-radius: 12px;
-  /* margin: 1rem; */
-  /* border: 1px solid var(--clr-grey); */
   background: var(--clr-black);
 }
 
-.menuCard:hover{
-  transition: .1s ease-in-out;
+.menuCard:hover {
+  transition: all 0.1s ease-in;
   scale: 1.05;
   border: none;
   filter: drop-shadow(0 0 0.5rem var(--clr-grey));
@@ -129,12 +103,4 @@
   color: #fff;
   font-family: var(--ff-poppins);
   font-size: 24px;
-}
-
-.menuNote {
-  text-align: center;
-  padding: 1rem;
-  font-size: 16;
-  font-family: var(--ff-poppins);
-  color: var(--clr-white);
 }
