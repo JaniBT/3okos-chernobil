@@ -9,9 +9,17 @@ const Thoughts = () => {
   return (
     <>
       <div className="thoughts-body">
-        <button>See all thoughts</button>
-        <form action=""></form>
-        <textarea name="" id=""></textarea>
+        <div className="thoughts-container">
+          <button>See all thoughts</button>
+          <p htmlFor="">
+            Tell us something about your ideas, thoughts, explain it in long
+            sentences: <span>*</span>
+          </p>
+          <form action="">
+            <label htmlFor=""></label>
+          </form>
+          <textarea name="" id="" placeholder="Write here..."></textarea>
+        </div>
       </div>
       <Footer />
     </>

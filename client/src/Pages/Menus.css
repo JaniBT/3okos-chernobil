@@ -14,7 +14,10 @@
   text-align: center;
   padding-block: 1rem;
   font-size: 20px;
+  position: relative;
+  right: 0;
 }
+
 
 .menus-home-link nav a {
   position: relative;

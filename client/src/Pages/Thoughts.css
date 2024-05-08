@@ -1,8 +1,13 @@
 .thoughts-body {
   background: #111111;
+  height: 100vh;
+}
+
+.thoughts-container{
+  
 }
 
 textarea {
   resize: none;
+  font-family: var(--ff-poppins);
 }
-
