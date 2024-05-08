@@ -176,6 +176,17 @@
     background-color: var(--clr-grey);
 }
 
+@media screen and (max-width: 1450px) {
+    .all-images {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .under-text {
+        top: -6%;
+        transform: translate(-50%, -6%);
+    }
+}
+
 @media screen and (max-width: 1300px) {
     :root {
         --global-width: 80%;
