@@ -1,13 +1,56 @@
 .thoughts-body {
-  background: #111111;
+  background: #ffffff;
   height: 100vh;
 }
 
-.thoughts-container{
-  
+.thoughts-container {
+  /* border: 3px dotted red; */
+  margin: 1rem;
+  display: flex;
+  justify-content: center;
 }
 
-textarea {
+h1 {
+  font-family: var(--ff-poppins);
+  text-align: center;
+  font-size: 2rem;
+}
+
+.messageStar{
+  color: #C00000; /* Easter egg haha*/
+}
+
+form{
+  border: 3px dotted red;
+}
+
+.messageArea {
+  width: 450px;
+  height: 150px;
   resize: none;
   font-family: var(--ff-poppins);
+  padding: 1rem;
+  border-radius: 12px;
+  border: 0.5px solid #dddee3;
+}
+
+.messageBtn {
+  background: var(--clr-primary);
+  font-family: var(--ff-poppins);
+  border: none;
+  font-size: 1rem;
+  padding: 0.75rem;
+  border-radius: 12px;
+  cursor: pointer;
+  margin-right: 1rem;
+}
+
+.revealBtn{
+
+  font-family: var(--ff-poppins);
+  border: none;
+  font-size: 1rem;
+  padding: 0.75rem;
+  border-radius: 12px;
+  cursor: pointer;
 }

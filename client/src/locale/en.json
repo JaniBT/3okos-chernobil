@@ -31,7 +31,7 @@
   "signUp": "Sign up",
   "menusHeading": "Menus",
   "menusChoose": "Choose a menu to continue",
-  "menuGallery": "Gallery",
+  "menuGallery": "Gallery", 
   "menuStories": "Stories",
   "menuTravel": "Travel",
   "menuThoughts": "Thoughts",
@@ -40,6 +40,8 @@
   "menuNote": "*Note that for some of the menus you will have to be logged in to view it!",
 
   "GalleryMainTitle": "Gallery of the Chernobyl nuclear disaster",
+
+  "thoughtsMessage": "Send message",
   
   "footerMain": "Chernobyl Project made by 3okos",
   "footerRights": "Copyright. All rights reserved."
