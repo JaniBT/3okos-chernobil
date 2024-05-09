@@ -7,7 +7,7 @@ import Gallery from "./Pages/Gallery"
 import Stories from "./Pages/Stories"
 // import Travel from "./Pages/Travel"
 // import Places from "./Pages/Places"
-import Thoughts from "./Pages/Thoughts"
+import Messages from "./Pages/Messages"
 
 function App() {
   return (
@@ -19,7 +19,7 @@ function App() {
         <Route path="/menus/gallery" element={<Gallery />} />
         <Route path="/menus/stories" element={<Stories />} />
         {/* <Route path="/menus/travel" element={<Travel />} /> */}
-        <Route path="/menus/thoughts" element={<Thoughts />} />
+        <Route path="/menus/messages" element={<Messages />} />
         {/* <Route path="/menus/places" element={<Places />} /> */}
         <Route path="*" element={<NotFound />} />
       </Routes>

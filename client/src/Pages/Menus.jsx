@@ -35,8 +35,8 @@ const Menus = () => {
               title={t("menuTravel")}
             />
             <MenuCard
-              link="/menus/thoughts"
-              innerLink="/thoughts"
+              link="/menus/messages"
+              innerLink="/messages"
               title={t("menuThoughts")}
             />
             <MenuCard
