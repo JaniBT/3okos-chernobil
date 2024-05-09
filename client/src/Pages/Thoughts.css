@@ -1,37 +1,40 @@
 .thoughts-body {
-  background: #ffffff;
-  height: 100vh;
+  background: #f3f4f6;
+  min-height: 100vh;
+  user-select: none;
 }
 
 .thoughts-container {
-  /* border: 3px dotted red; */
   margin: 1rem;
   display: flex;
   justify-content: center;
 }
 
-h1 {
+.messageHeading {
   font-family: var(--ff-poppins);
   text-align: center;
   font-size: 2rem;
+  margin-top: 5rem;
+  margin-bottom: 3rem;
 }
 
-.messageStar{
-  color: #C00000; /* Easter egg haha*/
+.messageStar {
+  color: #c00000;
 }
 
 form{
-  border: 3px dotted red;
+  max-width: 100%;
 }
 
 .messageArea {
-  width: 450px;
+  width: 750px;
   height: 150px;
   resize: none;
   font-family: var(--ff-poppins);
   padding: 1rem;
   border-radius: 12px;
   border: 0.5px solid #dddee3;
+  margin-bottom: 1rem;
 }
 
 .messageBtn {
@@ -43,14 +46,92 @@ form{
   border-radius: 12px;
   cursor: pointer;
   margin-right: 1rem;
+  transition: all 0.15s ease-in;
 }
 
-.revealBtn{
+.messageBtn:hover{
+  scale: 1.05;
+  border: none;
+}
 
+.revealBtn {
   font-family: var(--ff-poppins);
   border: none;
   font-size: 1rem;
   padding: 0.75rem;
   border-radius: 12px;
   cursor: pointer;
+  margin-right: 1rem;
+  transition: all 0.15s ease-in;
+}
+
+.revealBtn:hover{
+  scale: 1.05;
+  border: none;
+}
+
+.previewBtn{
+  background: aqua;
+  font-family: var(--ff-poppins);
+  border: none;
+  font-size: 1rem;
+  padding: 0.75rem;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.15s ease-in;
+}
+
+.previewBtn:hover{
+  scale: 1.05;
+  border: none;
+}
+
+.reveal-messages-container{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-inline: auto;
+  max-width: 750px;
+}
+
+.messagesDiv{
+  display: none;
+  padding: 1rem;
+  /* padding: .35rem; */
+  border-radius: 12px;
+  margin: .5rem;
+  background: #dddee3;
+  width: 100%;
+  overflow-x: scroll;
+}
+
+.messagesDiv>pre{
+  white-space: pre;
+  font-size: .85rem;
+  width: 100%;
+  font-family: var(--ff-poppins);
+}
+
+.messagesDiv>span{
+  font-size: .85rem;
+  width: 100%;
+  font-family: var(--ff-poppins);
+}
+
+.previewDiv{
+  display: none;
+  padding: 1rem;
+  border-radius: 12px;
+  margin: .5rem;
+  background: #dddee3;
+  width: 100%;
+  overflow-x: scroll;
+}
+
+.previewDiv>pre{
+  white-space: pre;
+  font-size: .85rem;
+  width: 100%;
+  font-family: var(--ff-poppins);
 }

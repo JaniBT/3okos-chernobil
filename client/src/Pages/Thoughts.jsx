@@ -1,6 +1,9 @@
 import React, { useState } from "react";
 import { useTranslation } from "react-i18next";
-import { HiOutlinePaperAirplane } from "react-icons/hi";
+import { HiPaperAirplane } from "react-icons/hi";
+import { FaArrowDown } from "react-icons/fa";
+import { VscOpenPreview } from "react-icons/vsc";
+import { lazy } from 'react';
 import "./Thoughts.css";
 import { Link } from "react-router-dom";
 
@@ -17,7 +20,21 @@ const Thoughts = () => {
     e.preventDefault();
     console.log(message);
     setMessage("");
+    successfulSend();
   };
+
+  const previewBtn = (e) => {
+    e.preventDefault();
+    const previewDiv = document.querySelector(".previewDiv");
+    if (previewDiv.innerText != "") {
+      previewDiv.style.display = "block";
+    }
+  };
+
+  const successfulSend = () => {
+    // TODO ALERT
+    alert("success")
+  }
 
   return (
     <div className="thoughts-body">
@@ -27,23 +44,38 @@ const Thoughts = () => {
           <Link to="/menus">{t("menu_text")}</Link>
         </nav>
       </header>
-      <h1>Tell us something about your ideas, thoughts, explain it in long sentences: <span className="messageStar">*</span></h1>
+      <h1 className="messageHeading">{t("messageHeading")}: <span className="messageStar">*</span>
+      </h1>
       <div className="thoughts-container">
         <form onSubmit={handleSubmit}>
           <textarea
             className="messageArea"
-            placeholder="Write your thoughts here..."
+            placeholder={t("textareaPlaceholder")}
             value={message}
             onChange={handleMessageChange}
-          ></textarea>{" "}
+            maxLength={500}
+          ></textarea>{""}
           <br />
           <button className="messageBtn" type="submit">
-            <HiOutlinePaperAirplane /> {t("thoughtsMessage")}
+            <HiPaperAirplane /> {t("thoughtsMessage")}
           </button>
           <button className="revealBtn" type="button">
-            <HiOutlinePaperAirplane /> {t("thoughtsMessage")}
+            {/* TODO: Lazy lodaing  */}
+            <FaArrowDown /> {t("seeAllMessages")}
+          </button>
+          <button className="previewBtn" type="button" onClick={previewBtn}>
+            <VscOpenPreview /> {t("revealMessage")}
           </button>
         </form>
+      </div>
+      <div className="reveal-messages-container">
+        <div className="messagesDiv">
+          <pre>{message}</pre>
+        </div>
+        <div className="previewDiv">
+          <pre>{message}</pre>
+        </div>
+        {/* TODO: loading preview 3 lines  */}
       </div>
     </div>
   );

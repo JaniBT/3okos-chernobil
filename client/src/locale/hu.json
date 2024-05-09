@@ -41,7 +41,11 @@
 
   "GalleryMainTitle": "Fényképek a Csernobili atomkatasztrófáról",
 
+  "messageHeading": "Mondja el a gondolatait, meglátásait, és fejtse ki azokat",
+  "textareaPlaceholder": "Ide írja gondolatait...",
   "thoughtsMessage": "Elküldés",
+  "seeAllMessages": "Összes gondolat megtekintése",
+  "revealMessage": "Előnézet",
   
   "footerMain": "A Csernobil projektet készítette a 3okos",
   "footerRights": "Copyright. Minden jog fenntartva.",

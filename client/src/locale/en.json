@@ -41,8 +41,12 @@
 
   "GalleryMainTitle": "Gallery of the Chernobyl nuclear disaster",
 
+  "messageHeading": "Tell us something about your ideas, thoughts, explain it in long sentences",
+  "textareaPlaceholder": "Write your thoughts here...",
   "thoughtsMessage": "Send message",
-  
+  "seeAllMessages": "See all the thoughts",
+  "revealMessage": "See preview",
+
   "footerMain": "Chernobyl Project made by 3okos",
   "footerRights": "Copyright. All rights reserved.",
 
