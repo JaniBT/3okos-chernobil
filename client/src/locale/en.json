@@ -51,5 +51,11 @@
   "footerRights": "Copyright. All rights reserved.",
 
   "viewGalleryButton": "VIEW GALLERY",
-  "galleryViewText": "Gallery"
+  "galleryViewText": "Gallery",
+
+  "storiesTitle": "Stories from the 1980s Soviet Union",
+  "storiesPripyat": "Read story about the city of Pripyat",
+  "storiesChernobyl": "Read story about the city of Chernobyl",
+  "storiesPowerPlant": "Read story about the Nuclear Power Plant of Chernobyl",
+  "storiesSovietUnion": "The situation of the Soviet Union in the 1980s"
 }

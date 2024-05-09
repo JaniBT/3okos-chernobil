@@ -51,5 +51,11 @@
   "footerRights": "Copyright. Minden jog fenntartva.",
 
   "viewGalleryButton": "GALÉRIA MEGTEKINTÉSE",
-  "galleryViewText": "Galéria"
+  "galleryViewText": "Galéria",
+
+  "storiesTitle": "Történetek a 1980-as évekbeli Szovjetunióból",
+  "storiesPripyat": "Olvassa el Pripyat városának történetét",
+  "storiesChernobyl": "Olvassa el Chernobyl városának történetét",
+  "storiesPowerPlant": "Olvassa el a Csernobili Atomerőmű történetét",
+  "storiesSovietUnion": "A Szovjetunió helyzete az 1980-as években"
 }
