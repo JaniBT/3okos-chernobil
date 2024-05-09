@@ -1,0 +1,17 @@
+.stories-content {
+
+    background-color: var(--clr-black);
+}
+
+.stories-title {
+    padding-top: 2.75rem;
+    width: 85%;
+    margin-inline: auto;
+    background-color: var(--clr-black);
+}
+
+.stories-title h1 {
+    font-family: var(--ff-merriweather);
+    font-size: 3rem;
+    color: var(--clr-skin);
+}
