@@ -21,6 +21,10 @@ const Thoughts = () => {
     console.log(message);
     setMessage("");
     successfulSend();
+    const messagesDiv = document.querySelector(".messagesDiv");
+    if (messagesDiv.innerText != "") {
+      messagesDiv.style.display = "block";
+    }
   };
 
   const previewBtn = (e) => {
@@ -60,7 +64,7 @@ const Thoughts = () => {
             <HiPaperAirplane /> {t("thoughtsMessage")}
           </button>
           <button className="revealBtn" type="button">
-            {/* TODO: Lazy lodaing  */}
+            {/* TODO: Lazy loading  */}
             <FaArrowDown /> {t("seeAllMessages")}
           </button>
           <button className="previewBtn" type="button" onClick={previewBtn}>
