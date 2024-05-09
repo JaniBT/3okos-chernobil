@@ -4,19 +4,31 @@ import { RxHamburgerMenu, RxCross2 } from "react-icons/rx"
 import hun_flag from '../assets/icons/hungarianIcon.png'
 import en_flag from '../assets/icons/englishIcon.png'
 import { useTranslation } from "react-i18next"
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 
 const Navbar = () => {
     const [swap, setSwap] = useState(false)
     const [isOpen, setIsOpen] = useState(false)
     const { t, i18n } = useTranslation()
 
+    useEffect(() => {
+        if (localStorage.getItem('language') == 'hu') {
+            setSwap(true)
+            changeLanguage(localStorage.getItem('language'))
+        } else {
+            setSwap(false)
+            changeLanguage(localStorage.getItem('language'))
+        }
+    }, [])
+
     const handleLanguageIconSwap = () => {
         setSwap(!swap ? true : false)
         if (!swap) {
             changeLanguage('hu')
+            localStorage.setItem('language', 'hu')
         } else {
             changeLanguage('en')
+            localStorage.setItem('language', 'en')
         }
     }
 
