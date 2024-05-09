@@ -44,5 +44,8 @@
   "thoughtsMessage": "Send message",
   
   "footerMain": "Chernobyl Project made by 3okos",
-  "footerRights": "Copyright. All rights reserved."
+  "footerRights": "Copyright. All rights reserved.",
+
+  "viewGalleryButton": "VIEW GALLERY",
+  "galleryViewText": "Gallery"
 }

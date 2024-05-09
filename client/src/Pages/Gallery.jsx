@@ -4,6 +4,7 @@ import { Link } from "react-router-dom"
 import './Gallery.css'
 import GalleryHeroSection from "../components/GalleryHeroSection"
 import Footer from "../components/Footer"
+import GalleryImages from "../components/GalleryImages"
 
 const Gallery = () => {
     const { t } = useTranslation()
@@ -23,20 +24,12 @@ const Gallery = () => {
             <main className="gallery-main-content">
                 <GalleryHeroSection />
                 <HiArrowNarrowDown className="arrow_down_gallery" />
-                <Link className="gallery-view-btn" onClick={handleClick}>VIEW GALLERY</Link>
+                <Link className="gallery-view-btn" onClick={handleClick}>{t("viewGalleryButton")}</Link>
                 <div className="image-gallery">
                     <div className="all-images">
-                        <div className="gal-image"></div>
-                        <div className="gal-image"></div>
-                        <div className="gal-image"></div>
-                        <div className="gal-image"></div>
-                        <div className="gal-image"></div>
-                        <div className="gal-image"></div>
-                        <div className="gal-image"></div>
-                        <div className="gal-image"></div>
-                        <div className="gal-image"></div>
+                        <GalleryImages />
                         <h2 id="gallery" className="under-text">
-                            Gallery
+                            {t("galleryViewText")}
                         </h2>
                     </div>
                 </div>
