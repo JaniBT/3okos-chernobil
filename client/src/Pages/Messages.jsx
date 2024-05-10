@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 import { HiPaperAirplane } from "react-icons/hi";
 import { FaArrowDown } from "react-icons/fa";
@@ -13,17 +13,47 @@ const MessageForm = () => {
   const [messages, setMessages] = useState([]);
   const [revealMessages, setRevealMessages] = useState(false);
 
+  useEffect(() => {
+    const getResponse = async () => {
+      const response = await fetch('/api/thoughts')
+      const data = await response.json()
+
+      setMessages(data)
+    }
+
+    getResponse()
+  }, [])
+
   const handleMessageChange = (e) => {
     setMessage(e.target.value);
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     if (message.trim() !== "") {
       setMessages([...messages, message]);
       setMessage("");
       setRevealMessages(false);
-      alert(t("sendSuccess"));
+
+      const response = await fetch('/api/workouts', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(message)
+      })
+
+      if (response.ok) {
+        alert(t("sendSuccess"));
+        window.location.reload()
+      }
+
+      if (!response.ok) {
+        const data = await response.json()
+        alert(data.message)
+      }
+
+      
     } else {
       alert(t("sendFailed"));
     }
