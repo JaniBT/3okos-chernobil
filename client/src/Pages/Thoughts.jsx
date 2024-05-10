@@ -23,7 +23,7 @@ const Thoughts = () => {
     successfulSend();
     const messagesDiv = document.querySelector(".messagesDiv");
     if (messagesDiv.innerText != "") {
-      messagesDiv.style.display = "block";
+      messagesDiv.style.display = "block";  
     }
   };
 

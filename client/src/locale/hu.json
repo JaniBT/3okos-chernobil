@@ -44,9 +44,11 @@
   "messageHeading": "Mondja el a gondolatait, meglátásait, és fejtse ki azokat",
   "textareaPlaceholder": "Ide írja gondolatait...",
   "thoughtsMessage": "Elküldés",
-  "seeAllMessages": "Összes gondolat megtekintése",
-  "revealMessage": "Előnézet",
-  
+  "seeAllMessages": "Összes üzenet",
+
+  "sendSuccess": "Üzenet sikeresen elküldve!",
+  "sendFailed": "Kérjük adja meg az üzenetet küldés előtt!",
+
   "footerMain": "A Csernobil projektet készítette a 3okos",
   "footerRights": "Copyright. Minden jog fenntartva.",
 
