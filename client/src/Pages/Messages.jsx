@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 import { HiPaperAirplane } from "react-icons/hi";
 import { FaArrowDown } from "react-icons/fa";
@@ -17,13 +17,13 @@ const MessageForm = () => {
     setMessage(e.target.value);
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     if (message.trim() !== "") {
       setMessages([...messages, message]);
-      setMessage("");
       setRevealMessages(false);
-      alert(t("sendSuccess"));
+
+      
     } else {
       alert(t("sendFailed"));
     }
