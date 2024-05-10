@@ -4,6 +4,10 @@ import StoriesCard from "../components/StoriesCard"
 import Footer from "../components/Footer"
 import './Stories.css'
 
+import pripyatImage from '../assets/images/pripyat.jpg'
+import chernobylImage from '../assets/images/chernobyl.jpg'
+import nuclearPowerPlant from '../assets/images/power_plant.png'
+
 const Stories = () => {
     const { t } = useTranslation()
 
@@ -15,9 +19,9 @@ const Stories = () => {
                 <div className="stories-title">
                     <h1>{t("storiesTitle")}</h1>
                     <div className="story-cards">
-                        <StoriesCard aligning="right" cardTitle={t("storiesPripyat")} cardImage={undefined} cardImageAlter="Pripyat Card" />
-                        <StoriesCard aligning="left" cardTitle={t("storiesChernobyl")} cardImage={undefined} cardImageAlter="Chernobyl Card" />
-                        <StoriesCard aligning="right" cardTitle={t("storiesPowerPlant")} cardImage={undefined} cardImageAlter="Power Plant Card" />
+                        <StoriesCard aligning="right" link="https://hu.wikipedia.org/wiki/Csernobil" cardTitle={t("storiesPripyat")} cardImage={pripyatImage} cardImageAlter="Pripyat Card" />
+                        <StoriesCard aligning="left" link="https://hu.wikipedia.org/wiki/Pripjaty_(Kijevi_ter%C3%BClet)" cardTitle={t("storiesChernobyl")} cardImage={chernobylImage} cardImageAlter="Chernobyl Card" />
+                        <StoriesCard aligning="right" link="https://hu.wikipedia.org/wiki/Csernobili_atomer%C5%91m%C5%B1" cardTitle={t("storiesPowerPlant")} cardImage={nuclearPowerPlant} cardImageAlter="Power Plant Card" />
                     </div>
                 </div>
             </main>
