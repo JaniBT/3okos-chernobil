@@ -53,6 +53,8 @@
 .about-main-container iframe {
   display: block;
   margin-inline: auto;
+  width: 822px;
+  height: 515px;
 }
 
 .about-main-container p {
@@ -220,4 +222,33 @@
   margin-inline: auto;
   text-align: center;
   padding-bottom: 1rem;
+}
+
+@media screen and (max-width: 960px) {
+  .about-main-container iframe {
+    width: 622px;
+    height: 467px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .about-main-container iframe {
+    width: 350px;
+    height: 263px;
+  }
+
+  .about-main-container .curiosity-texts {
+    flex-direction: column;
+  }
+
+  .about-main-container h6 {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 1330px) {
+  .team-members {
+    gap: 5rem;
+    flex-wrap: wrap;
+  }
 }

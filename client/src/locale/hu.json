@@ -15,6 +15,9 @@
   "inMemorial": "Ez az oldal azoknak az embereknek az emlékére készült, akik átszenvedték ezeket az időket.",
   "gallery": "GALÉRIA",
   "moreInfo": "TUDJ MEG TÖBBET",
+  "moreInfoTextFirst": "A csernobili likvidátorok olyan emberek voltak, akik részt vettek a Csernobili atomerőmű balesetének következményeinek kezelésében és az abból eredő radioaktív szennyezés csökkentésében. A likvidátorok hősiességüket és áldozatvállalásukat mutatták be a világnak, miközben rendkívüli körülmények között dolgoztak a katasztrófa utáni helyreállítási munkálatokban.",
+  "moreInfoTextSecond": "A likvidátorok a szovjet hatóságok és a katonaság által összeállított csoportokba tartoztak, amelyeket azonnal a baleset után hoztak létre a reaktor helyszínén történő mentési és tisztítási munkálatok végrehajtására.",
+  "moreInfoTextThird": "Ebben az időszakban nagyon magas szintű radioaktív sugárzás volt jelen a területen, ami rendkívüli kockázatot jelentett az emberek számára, akik részt vettek a munkálatokban. A likvidátorok nagyon sokféle feladatot végeztek el a katasztrófa következményeinek enyhítése érdekében: reaktor területének takarítása és elhárítása, sugárzás monitorozása és védelem, élelmiszer- és vízellátás biztosítása, környezetvédelmi intézkedések végrehajtása.",
   "teamInfo": "Mi vagyunk a 3okos csapat",
   "janosCsordas": [
     "Projektvezető",
