@@ -48,19 +48,25 @@
   "textareaPlaceholder": "Ide írja gondolatait...",
   "thoughtsMessage": "Elküldés",
   "seeAllMessages": "Összes üzenet",
-
   "sendSuccess": "Üzenet sikeresen elküldve!",
   "sendFailed": "Kérjük adja meg az üzenetet küldés előtt!",
 
-  "footerMain": "A Csernobil projektet készítette a 3okos",
-  "footerRights": "Copyright. Minden jog fenntartva.",
-
   "viewGalleryButton": "GALÉRIA MEGTEKINTÉSE",
   "galleryViewText": "Galéria",
+
+  "visitChernobyl": "Utazzon el Csernobilba",
+  "disclaimer": "Tájékoztatás",
+  "disclaimer-section-first": "Az ukrajnai háború miatt jelenleg nem látogathatják Csernobilt a rendszeres látogatók. A Chernobyl Tour® azonban útmutatókat és támogatást nyújthat az állami és katonai delegációk számára.",
+  "disclaimer-section-second": "A háború előtt Csernobil egy-hét napos túrákat kínált, amelyek szállítást, étkezést és szállást tartalmaztak. A látogatók megtekinthették a csernobili atomerőművet, Pripjaty elhagyatott városát és más érdekes helyeket. A Chernobyl Tour® oktatási programokat is kínált a sugárbiztonságról és a csernobili katasztrófa történetéről.",
+  "tour-informations": "További információk itt: ",
+  "tour-first-link": "Link a chernobyl-tour oldalra",
 
   "storiesTitle": "Történetek a 1980-as évekbeli Szovjetunióból",
   "storiesPripyat": "Olvassa el Pripyat városának történetét",
   "storiesChernobyl": "Olvassa el Chernobyl városának történetét",
   "storiesPowerPlant": "Olvassa el a Csernobili Atomerőmű történetét",
-  "storiesSovietUnion": "A Szovjetunió helyzete az 1980-as években"
+  "storiesSovietUnion": "A Szovjetunió helyzete az 1980-as években",
+
+  "footerMain": "A Csernobil projektet készítette a 3okos",
+  "footerRights": "Copyright. Minden jog fenntartva."
 }

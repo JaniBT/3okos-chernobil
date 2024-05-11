@@ -1,37 +1,34 @@
-import React, { useEffect, useState } from "react";
-import { useTranslation } from "react-i18next";
-import { HiPaperAirplane } from "react-icons/hi";
-import { FaArrowDown } from "react-icons/fa";
-import { lazy } from 'react';
-import "./Messages.css";
-import { Link } from "react-router-dom";
+import React, { useEffect, useState } from "react"
+import { useTranslation } from "react-i18next"
+import { HiPaperAirplane } from "react-icons/hi"
+import { FaArrowDown } from "react-icons/fa"
+import "./Messages.css"
+import { Link } from "react-router-dom"
 
 const MessageForm = () => {
-  const { t } = useTranslation();
+  const { t } = useTranslation()
 
-  const [message, setMessage] = useState("");
-  const [messages, setMessages] = useState([]);
-  const [revealMessages, setRevealMessages] = useState(false);
+  const [message, setMessage] = useState("")
+  const [messages, setMessages] = useState([])
+  const [revealMessages, setRevealMessages] = useState(false)
 
   const handleMessageChange = (e) => {
-    setMessage(e.target.value);
-  };
+    setMessage(e.target.value)
+  }
 
   const handleSubmit = async (e) => {
-    e.preventDefault();
+    e.preventDefault()
     if (message.trim() !== "") {
-      setMessages([...messages, message]);
-      setRevealMessages(false);
-
-      
+      setMessages([...messages, message])
+      setRevealMessages(false)
     } else {
-      alert(t("sendFailed"));
+      alert(t("sendFailed"))
     }
-  };
+  }
 
   const handleReveal = () => {
-    setRevealMessages(true);
-  };
+    setRevealMessages(true)
+  }
 
   return (
     <div>
@@ -41,7 +38,9 @@ const MessageForm = () => {
           <Link to="/menus">{t("menu_text")}</Link>
         </nav>
       </header>
-      <h1 className="message-heading">{t("messageHeading")}: <span className="message-star">*</span></h1>
+      <h1 className="message-heading">
+        {t("messageHeading")}: <span className="message-star">*</span>
+      </h1>
       <div className="message-container">
         <form onSubmit={handleSubmit}>
           <textarea
@@ -53,10 +52,10 @@ const MessageForm = () => {
           />
           <div className="button-container">
             <button className="submit-btn" type="submit">
-            <HiPaperAirplane /> {t("thoughtsMessage")}
+              <HiPaperAirplane /> {t("thoughtsMessage")}
             </button>
             <button className="reveal-btn" type="button" onClick={handleReveal}>
-            <FaArrowDown /> {t("seeAllMessages")}
+              <FaArrowDown /> {t("seeAllMessages")}
             </button>
           </div>
         </form>
@@ -76,7 +75,7 @@ const MessageForm = () => {
         </div>
       )}
     </div>
-  );
+  )
 }
 
-export default MessageForm;
+export default MessageForm

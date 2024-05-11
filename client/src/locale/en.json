@@ -48,19 +48,25 @@
   "textareaPlaceholder": "Write your thoughts here...",
   "thoughtsMessage": "Send message",
   "seeAllMessages": "See all the messages",
-
   "sendSuccess": "Message submitted successfully!",
   "sendFailed": "Please enter a message before submitting!",
 
-  "footerMain": "Chernobyl Project made by 3okos",
-  "footerRights": "Copyright. All rights reserved.",
-
   "viewGalleryButton": "VIEW GALLERY",
   "galleryViewText": "Gallery",
+
+  "visitChernobyl": "Visiting Chernobyl",
+  "disclaimer": "Disclaimer",
+  "disclaimer-section-first": "Visiting Chernobyl is currently not possible for regular visitors due to the ongoing war in Ukraine. However, Chernobyl Tour® can provide guides and support for state and military delegations.",
+  "disclaimer-section-second": "Before the war, Chernobyl offered one-day to seven-day tours that included transportation, meals, and accommodation. Visitors could see the Chernobyl Nuclear Power Plant, the abandoned town of Pripyat, and other interesting sites. Chernobyl Tour® also offered educational programs about radiation safety and the history of the Chernobyl disaster.",
+  "tour-informations": "More informations here: ",
+  "tour-first-link": "Link to the chernobyl-tour website",
 
   "storiesTitle": "Stories from the 1980s Soviet Union",
   "storiesPripyat": "Read story about the city of Pripyat",
   "storiesChernobyl": "Read story about the city of Chernobyl",
   "storiesPowerPlant": "Read story about the Nuclear Power Plant of Chernobyl",
-  "storiesSovietUnion": "The situation of the Soviet Union in the 1980s"
+  "storiesSovietUnion": "The situation of the Soviet Union in the 1980s",
+
+  "footerMain": "Chernobyl Project made by 3okos",
+  "footerRights": "Copyright. All rights reserved."
 }

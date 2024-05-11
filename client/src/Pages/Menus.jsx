@@ -1,11 +1,11 @@
-import React, { useEffect } from "react";
-import { Link } from "react-router-dom";
-import { useTranslation } from "react-i18next";
-import MenuCard from "../components/MenuCard";
-import "./Menus.css";
+import React, { useEffect } from "react"
+import { Link } from "react-router-dom"
+import { useTranslation } from "react-i18next"
+import MenuCard from "../components/MenuCard"
+import "./Menus.css"
 
 const Menus = () => {
-  const { t } = useTranslation();
+  const { t } = useTranslation()
 
   return (
     <>
@@ -13,7 +13,9 @@ const Menus = () => {
         <div className="menus-container">
           <header className="menus-home-link">
             <nav>
-              <Link to="/" className="menus-link">{t("nav_one")}</Link>
+              <Link to="/" className="menus-link">
+                {t("nav_one")}
+              </Link>
             </nav>
           </header>
           <h1>{t("menusHeading")}</h1>
@@ -44,12 +46,16 @@ const Menus = () => {
               innerLink="/places"
               title={t("menuPlaces")}
             />
-            <MenuCard link="https://www.hbo.com/chernobyl" innerLink="/hbo" title={t("menuHBO")} />
+            <MenuCard
+              link="https://www.hbo.com/chernobyl"
+              innerLink="/hbo"
+              title={t("menuHBO")}
+            />
           </section>
         </div>
       </div>
     </>
-  );
-};
+  )
+}
 
-export default Menus;
+export default Menus

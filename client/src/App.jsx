@@ -5,7 +5,7 @@ import Menus from "./Pages/Menus"
 import NotFound from "./Pages/NotFound"
 import Gallery from "./Pages/Gallery"
 import Stories from "./Pages/Stories"
-// import Travel from "./Pages/Travel"
+import Travel from "./Pages/Travel"
 // import Places from "./Pages/Places"
 import Messages from "./Pages/Messages"
 
@@ -18,7 +18,7 @@ function App() {
         <Route path="/menus" element={<Menus />} />
         <Route path="/menus/gallery" element={<Gallery />} />
         <Route path="/menus/stories" element={<Stories />} />
-        {/* <Route path="/menus/travel" element={<Travel />} /> */}
+        <Route path="/menus/travel" element={<Travel />} />
         <Route path="/menus/messages" element={<Messages />} />
         {/* <Route path="/menus/places" element={<Places />} /> */}
         <Route path="*" element={<NotFound />} />

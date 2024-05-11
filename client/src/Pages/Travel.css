@@ -1,0 +1,52 @@
+.travel-body {
+  background: #111111;
+  height: 100vh;
+  overflow-x: hidden;
+  color: var(--clr-white);
+}
+
+.travel-container {
+  width: 65%;
+  margin-inline: auto;
+  transition: all 0.5s ease;
+  user-select: none;
+  padding: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  .travel-container {
+    text-align: center;
+  }
+}
+
+.travel-main-heading,
+.travel-second-heading {
+  text-align: center;
+  color: var(--clr-white);
+  margin: 1rem;
+}
+
+.travel-main-heading {
+  margin-top: 3rem;
+}
+
+.disclaimer {
+  color: var(--clr-primary);
+}
+
+.disclaimer-section {
+  padding: 1rem;
+}
+
+.travel-links {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+  gap: 1rem;
+}
+
+.travel-links a {
+  text-decoration: none;
+  color: var(--clr-primary);
+}
