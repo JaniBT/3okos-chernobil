@@ -3,6 +3,7 @@
   height: 100vh;
   overflow-x: hidden;
   color: var(--clr-white);
+  font-family: var(--ff-poppins);
 }
 
 .travel-container {

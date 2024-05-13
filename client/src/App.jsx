@@ -20,7 +20,6 @@ function App() {
         <Route path="/menus/stories" element={<Stories />} />
         <Route path="/menus/travel" element={<Travel />} />
         <Route path="/menus/messages" element={<Messages />} />
-        {/* <Route path="/menus/places" element={<Places />} /> */}
         <Route path="*" element={<NotFound />} />
       </Routes>
     </>
