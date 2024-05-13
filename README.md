@@ -60,16 +60,6 @@ source: https://realchernobyl.com/
 
 If you have any questions or comments regarding the Chernobyl Nuclear Disaster Project, please don't hesitate to reach out to us! Your feedback is very important to us, and we are always open to new ideas and suggestions.
 
-### Places 🧭
-
-There are numerous sights to see in the vicinity of the Chernobyl Nuclear Disaster site that remind us of the events that took place there and illustrate the effects of the disaster:
-
-- **Nuclear Power Plant**: The nuclear power plant stands at the center of the disaster and presents the background of the events. This location allows us to learn more about the causes and circumstances of the tragedy.
-
-- **Duga Radar**: The massive Duga radar was part of the former Soviet Union's missile defense system and still stands today. This impressive structure reminds us of the technological race during the Cold War and highlights the militarized past of the area.
-
-- **Pripyat**: In the abandoned city, you can find sites such as the school, the amusement park, and the Azure swimming pool, which remind us of the city's former vibrant life. These places now evoke the past and showcase what life was like before the Chernobyl disaster.
-
 ### HBO Series 📺
 
 The series "Chernobyl," produced by HBO, faithfully and poignantly portrays the events and effects of the Chernobyl nuclear disaster. The series has garnered recognition from both critics and viewers alike, and has contributed to making the story of the Chernobyl disaster more widely known.
@@ -139,13 +129,6 @@ forrás: https://realchernobyl.com/
 
 Ha bármilyen kérdésed vagy megjegyzésed van a Csernobili Atomkatasztrófa Projekttel kapcsolatban, kérlek, ne habozz írni nekünk! Nagyon fontos számunkra a visszajelzés, és mindig nyitottak vagyunk az új ötletekre és javaslatokra.
 
-### Látnivalók 🧭
-
-A Csernobili Atomkatasztrófa környékén számos látnivaló található, amelyek emlékeztetnek az ott történt eseményekre és bemutatják a katasztrófa hatásait.
-
-- **Atomerőmű**: Az atomerőmű a katasztrófa központjában áll, és az események hátterét mutatja be.
-- **Duga radar**: A hatalmas Duga radar az egykori Szovjetunió rakétaelhárítási rendszerének része volt, és ma is áll.
-- **Pripyat**: Az elhagyatott városban láthatók olyan helyszínek, mint az iskola, a vidámpark és az Azúr uszoda, amelyek emlékeztetnek a város egykori virágzó életére.
 ### HBO sorozat 📺
 
 Az HBO által készített sorozat, a "Csernobil" hűen és megrázóan mutatja be a csernobili atomkatasztrófa eseményeit és hatásait. A sorozat elnyerte a kritikusok és a nézők elismerését egyaránt, és hozzájárult ahhoz, hogy a csernobili katasztrófa története szélesebb körben ismertté váljon.
